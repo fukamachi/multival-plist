@@ -31,7 +31,7 @@ Multival-Plist provides utilities to handle Property Lists that may contain mult
 
 This is a version of `getf` enabled to manage multiple keys. If the `plist` has two or more pairs that they have given `key` as a key, returns the values of each pairs as one list.
 
-### [Function] (setf getf-all) (val plist key &optional default)
+### [Function] \(setf getf-all\) (val plist key &optional default)
 
     (setf (getf-all *plist* :foo) '("Hello" "World"))
     ;; *plist* = '(:foo "Hello" :bar 2 :foo "World")
