@@ -15,7 +15,7 @@
 (in-package :multival-plist-asd)
 
 (defsystem multival-plist
-  :version "0.1-SNAPSHOT"
+  :version "0.1"
   :author "Eitarow Fukamachi"
   :license "LLGPL"
   :depends-on (:cl-annot
