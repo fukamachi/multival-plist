@@ -19,7 +19,9 @@
   :author "Eitarow Fukamachi"
   :license "LLGPL"
   :depends-on (:cl-annot
-               :cl-syntax-annot)
+               :cl-syntax-annot
+               :trivial-types
+               :alexandria)
   :components ((:module "src"
                 :components
                 ((:file "multival-plist"))))
